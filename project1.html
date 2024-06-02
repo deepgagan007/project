@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="stylep1.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <div class="heading">
+        <div class="head">
+            <h4 class="project_heading">Project Introduction</h4>
+        </div>
+    </div>
+
+    <div class="description">
+        In modern database management systems, storing addresses efficiently and
+        effectively is crucial for various applications, including e-commerce, logistics,
+        customer relationship management (CRM), and more. An address typically
+        consists of various components such as street number, street name, city,
+        state/province, postal/ZIP code, and country. <br><br>
+
+        To store addresses in a database, one needs to design an appropriate schema that
+        can accommodate the complexity of address data while ensuring ease of access
+        and query performance. Here's a brief overview of how addresses can be stored in
+        a database.<br><br>
+
+        Database Design: The first step is to design the database schema. This involves
+        creating tables to represent different entities such as customers, suppliers, or
+        shipments, each of which may have an associated address.<br><br>
+
+        Address Table: One common approach is to create a separate table specifically for
+        storing addresses. This table typically contains columns for each component of an
+        address, such as street, city, state, postal code, and country. For example:<br><br>
+
+        Relationships: Next, establish relationships between the address table and other
+        relevant tables in the database. For instance, a customer table may have a
+        foreign key column that references the AddressID in the address table, indicating
+        the address associated with each customer.<br><br>
+
+        Normalization: It's essential to normalize the address data to avoid redundancy
+        and inconsistencies. Normalization involves breaking down data into smaller,
+        more manageable tables to eliminate duplicate information and minimize data
+        anomalies.<br><br>
+
+        Indexing: To improve query performance, consider indexing columns frequently
+        used in search operations, such as postal codes or city names. Indexing allows the
+        database to quickly locate relevant records based on the search criteria.<br><br>
+
+        Data Validation and Integrity: Implement data validation rules to ensure that only
+        valid and consistent addresses are stored in the database. This may involve
+        enforcing format requirements for postal codes, validating country names, and
+        ensuring that mandatory fields are not left empty.<br><br>
+
+        Geocoding: In some applications, it may be beneficial to include geocoding
+        information (latitude and longitude) for addresses. Geocoding can facilitate
+        location-based services, spatial analysis, and mapping functionalities.<br><br>
+
+        By following these principles and best practices, you can effectively store
+        addresses in a database, enabling efficient data management and retrieval for
+        various applications. Additionally, ongoing maintenance and updates to the
+        address data are essential to ensure data accuracy and reliability over time.<br><br>
+    </div>
+</body>
+
+</html>
