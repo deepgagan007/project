@@ -6,7 +6,7 @@ yes.addEventListener('click',() => {
 })
 
 function moveTarget(){
-    const maxWidth = 200;
+    const maxWidth = 150;
     const maxHeight = 400;
 
     const ranomX = Math.floor(Math.random() * maxWidth);
