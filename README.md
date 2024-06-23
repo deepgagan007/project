@@ -1,2 +1,2 @@
-# resume
+# project
 This is my resume
